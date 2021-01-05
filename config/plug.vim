@@ -20,7 +20,7 @@ Plug 'ryanoasis/vim-devicons'
 " 模糊搜索
 Plug 'Yggdroot/LeaderF'
 " ctag/gtag
-Plug 'jsfaint/gen_tags.vim'
+" Plug 'jsfaint/gen_tags.vim'
 " 对齐
 " Plug 'junegunn/vim-easy-align', {'on': ['EasyAlign']}
 "

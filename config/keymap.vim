@@ -25,8 +25,11 @@ nnoremap <c-w>l :rightbelow vsplit <cr>
 " 关闭搜索颜色
 nnoremap <BackSpace> :nohl<cr>
 
+" 关闭f1帮助
+nnoremap <F1> <Nop>
+
 " jk表示esc
-inoremap jk <esc>
+" inoremap jk <esc>
 
 " 使用esc退出终端
 " if has('nvim')
@@ -43,8 +46,7 @@ inoremap jk <esc>
 " 插入模式下的一些快捷键
 inoremap <M-o> <esc>o
 inoremap <M-O> <esc>O
-inoremap <M-h> <esc>I
-inoremap <M-l> <esc>A
+inoremap <M-h> <esc>I inoremap <M-l> <esc>A
 
 " 两个连续的space保存所有需要保存的文件
 " function! s:Wall() abort
