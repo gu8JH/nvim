@@ -3,7 +3,7 @@ Plug 'pseewald/vim-anyfold'
 " 显示清除尾部空格
 Plug 'ntpeters/vim-better-whitespace'
 " 代码补全插件
-" Plug 'mileszs/ack.vim'
+Plug 'mileszs/ack.vim'
 Plug 'neoclide/coc.nvim', { 'branch': 'release' }
 Plug 'scrooloose/nerdtree'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
@@ -20,7 +20,7 @@ Plug 'ryanoasis/vim-devicons'
 " 模糊搜索
 Plug 'Yggdroot/LeaderF'
 " ctag/gtag
-" Plug 'jsfaint/gen_tags.vim'
+Plug 'jsfaint/gen_tags.vim'
 " 对齐
 " Plug 'junegunn/vim-easy-align', {'on': ['EasyAlign']}
 "

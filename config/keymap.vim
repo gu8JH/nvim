@@ -19,8 +19,8 @@ nnoremap <c-w>h :abo vsplit <cr>
 nnoremap <c-w>j :rightbelow split <cr>
 nnoremap <c-w>l :rightbelow vsplit <cr>
 " 关闭窗口
-" nnoremap q <esc>:close<cr>
-" vnoremap q <esc>:close<cr>
+nnoremap q <esc>:close<cr>
+vnoremap q <esc>:close<cr>
 
 " 关闭搜索颜色
 nnoremap <BackSpace> :nohl<cr>
@@ -84,3 +84,15 @@ if !g:HasPlug('vim-airline')
 endif
 nnoremap <silent> <leader>tn :tabnew<cr>
 nnoremap <silent> <leader>tc :tabclose<cr>
+
+nnoremap <silent> <localleader>q :suspend<cr>
+
+" 查找选中文本
+xnoremap * :<C-u>call <SID>VSetSearch()<CR>/<C-R>=@/<CR><CR>
+xnoremap # :<C-u>call <SID>VSetSearch()<CR>?<C-R>=@/<CR><CR>
+function! s:VSetSearch()
+  let temp = @s
+  norm! gv"sy
+  let @/ = '\V' . substitute(escape(@s, '/\'), '\n', '\\n', 'g')
+  let @s = temp
+endfunction

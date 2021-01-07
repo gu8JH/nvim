@@ -13,22 +13,22 @@ let g:Lf_DefaultMode = 'NameOnly'
 let g:Lf_WorkingDirectory = finddir('.git', '.;')
 " popup mode
 let g:Lf_WindowPosition = 'popup'
-let g:Lf_PreviewInPopup = 1
+" let g:Lf_PreviewInPopup = 1
 let g:Lf_StlSeparator = { 'left': "\ue0b0", 'right': "\ue0b2", 'font': "DejaVu Sans Mono for Powerline" }
-let g:Lf_PreviewResult = {
-        \ 'File': 1,
-        \ 'Buffer': 1,
-        \ 'Mru': 1,
-        \ 'Tag': 1,
-        \ 'BufTag': 1,
-        \ 'Function': 1,
-        \ 'Line': 1,
-        \ 'Colorscheme': 0,
-        \ 'Rg': 1,
-        \ 'Gtags': 1
-        \}
+" let g:Lf_PreviewResult = {
+"         \ 'File': 1,
+"         \ 'Buffer': 1,
+"         \ 'Mru': 1,
+"         \ 'Tag': 1,
+"         \ 'BufTag': 1,
+"         \ 'Function': 1,
+"         \ 'Line': 1,
+"         \ 'Colorscheme': 0,
+"         \ 'Rg': 1,
+"         \ 'Gtags': 1
+"         \}
 
-let g:Lf_PopupPosition=[30,0]
+" let g:Lf_PopupPosition=[30,0]
 " let g:Lf_PreviewPopupWidth = 10
 " let g:Lf_AutoResize = 1
 
@@ -39,7 +39,7 @@ let g:Lf_WildIgnore = {
 let g:Lf_GtagsAutoGenerate = 1
 let g:Lf_Gtagslabel = 'native-pygments'
 
-let g:Lf_PreviewCode = 1
+" let g:Lf_PreviewCode = 1
 "文件搜索
 nnoremap <silent> <Leader>f :LeaderfFile /root/workspace<CR>
 
