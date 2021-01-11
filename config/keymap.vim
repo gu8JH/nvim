@@ -72,6 +72,11 @@ nnoremap k gk
 vnoremap j gj
 vnoremap k gk
 
+nnoremap <C-j> 10gj
+nnoremap <C-k> 10gk
+vnoremap <C-j> 10gj
+vnoremap <C-k> 10gk
+
 " 复制到末尾
 nnoremap Y y$
 
