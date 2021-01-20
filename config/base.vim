@@ -28,7 +28,7 @@ set shiftwidth=2
 set smarttab
 set smartindent
 set shiftround
-"set foldmethod=indent
+" set foldmethod=indent
 
 " set list                                                    " 只有setlist后面的才会起作用
 set listchars=tab:\|\→·,nbsp:⣿,extends:»,precedes:«

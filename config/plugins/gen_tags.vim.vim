@@ -2,8 +2,8 @@
 " ctags
 let g:gen_tags#ctags_opts = ['--c++-kinds=+px', '--c-kinds=+px', '--exclude=*/workspace/src/code.alipay.com/pamir-framework/bazel*/*']
 let g:loaded_gentags#ctags = 0
-let g:gen_tags#ctags_auto_gen = 1
-let g:gen_tags#ctags_auto_update = 1
+let g:gen_tags#ctags_auto_gen = 0
+let g:gen_tags#ctags_auto_update = 0
 
 " gtags
 let g:loaded_gentags#gtags = 1

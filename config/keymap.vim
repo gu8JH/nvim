@@ -21,7 +21,8 @@ nnoremap <c-w>l :rightbelow vsplit <cr>
 " 关闭窗口
 nnoremap q <esc>:close<cr>
 vnoremap q <esc>:close<cr>
-
+" 记录
+nnoremap Q q
 " 关闭搜索颜色
 nnoremap <BackSpace> :nohl<cr>
 
@@ -44,9 +45,9 @@ nnoremap <F1> <Nop>
 " nnoremap <leader>tt :terminal<cr>
 
 " 插入模式下的一些快捷键
-inoremap <M-o> <esc>o
-inoremap <M-O> <esc>O
-inoremap <M-h> <esc>I inoremap <M-l> <esc>A
+inoremap <C-o> <esc>o
+inoremap <C-O> <esc>O
+inoremap <C-h> <esc>I inoremap <M-l> <esc>A
 
 " 两个连续的space保存所有需要保存的文件
 " function! s:Wall() abort
@@ -76,6 +77,11 @@ nnoremap <C-j> 10gj
 nnoremap <C-k> 10gk
 vnoremap <C-j> 10gj
 vnoremap <C-k> 10gk
+"
+" nnoremap <D-h> 5h
+" nnoremap <D-h> 5h
+" vnoremap <D-l> 5l
+" vnoremap <D-l> 5l
 
 " 复制到末尾
 nnoremap Y y$
