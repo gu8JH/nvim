@@ -1,7 +1,7 @@
 " colorscheme srcery
 " set background=dark
 colorscheme gruvbox
-let g:airline_theme = "gruvbox"
+" let g:airline_theme = "gruvbox"
 
 
 " 搜索高亮

@@ -57,7 +57,7 @@ nmap <silent> gi <plug>(coc-implementation)
 nmap <silent> gr <plug>(coc-references)
 
 " 在源/头文件之间切换
-nmap <silent> <leader><leader>a :CocCommand clangd.switchSourceHeader<cr>
+nmap <silent> <leader>a :CocCommand clangd.switchSourceHeader<cr>
 
 " 使用K悬浮显示定义
 function! s:show_documentation()

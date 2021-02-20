@@ -63,7 +63,7 @@ set re=1
 set cursorline                                      " 高亮当前行
 set cursorcolumn                                    " 高亮当前列
 set guicursor=
-set textwidth=80
+set textwidth=100
 set colorcolumn=+1                      " 高亮textwidth后的列
 
 if has('nvim') == 0 && has('patch-8.1.2020')

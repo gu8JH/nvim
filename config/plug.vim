@@ -28,8 +28,9 @@ Plug 'jsfaint/gen_tags.vim'
 " 主题theme类插件
 " Plug 'drewtempelmeyer/palenight.vim'
 Plug 'morhetz/gruvbox'
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
+" Plug 'vim-airline/vim-airline'
+" Plug 'vim-airline/vim-airline-themes'
+Plug 'itchyny/lightline.vim'
 " 标签显示
 Plug 'kshenoy/vim-signature'
 " 注释
@@ -52,6 +53,7 @@ let g:coc_global_extensions = [
       \ 'coc-clangd',
       \ 'coc-json',
       \ 'coc-translator',
+      \ 'coc-yaml',
       \ ]
 
       " \ 'coc-vimlsp',
