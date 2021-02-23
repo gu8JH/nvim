@@ -10,7 +10,6 @@ let g:Lf_UseVersionControlTool = 0
 let g:Lf_IgnoreCurrentBufferName = 1
 let g:Lf_ShowHidden = 1
 let g:Lf_DefaultMode = 'NameOnly'
-let g:Lf_WorkingDirectory = finddir('.git', '.;')
 " popup mode
 let g:Lf_WindowPosition = 'popup'
 " let g:Lf_PreviewInPopup = 1
@@ -38,10 +37,10 @@ let g:Lf_WildIgnore = {
         \}
 let g:Lf_GtagsAutoGenerate = 1
 let g:Lf_Gtagslabel = 'native-pygments'
-
+let g:Lf_WorkingDirectoryMode = 'aF'
 " let g:Lf_PreviewCode = 1
 "文件搜索
-nnoremap <silent> <Leader>f :LeaderfFile /root/workspace<CR>
+nnoremap <silent> <Leader>f :LeaderfFile<CR>
 
 "历史打开过的文件
 nnoremap <silent> <Leader>m :Leaderf mru<CR>
