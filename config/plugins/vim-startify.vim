@@ -16,8 +16,8 @@ let g:startify_custom_header = [
       \'',
 \]
 
-let g:startify_files_number = 6
-let g:startify_dir_number = 6
+" let g:startify_files_number = 6
+" let g:startify_dir_number = 6
 
 " session
 let g:startify_session_persistence    = 1

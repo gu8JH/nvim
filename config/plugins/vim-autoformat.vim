@@ -19,20 +19,20 @@ autocmd FileType vim,tex let b:autoformat_autoindent=0
 " let g:formatdef_my_custom_cs = '"astyle --mode=cs --style=ansi -pcHs".&shiftwidth'
 " let g:formatters_cs = ['my_custom_cs']
 
-let g:formatdef_my_custom_c = "'clang-format -lines='.a:firstline.':'.a:lastline.' -style=Google' "
-let g:formatters_c = ['my_custom_c']
-let g:formatdef_my_custom_h = "'clang-format -lines='.a:firstline.':'.a:lastline.' -style=Google' "
-let g:formatters_h = ['my_custom_h']
-
-let g:formatdef_my_custom_cpp = "'clang-format -lines='.a:firstline.':'.a:lastline.' -style=Google' "
-let g:formatters_cpp = ['my_custom_cpp']
-let g:formatdef_my_custom_hpp = "'clang-format -lines='.a:firstline.':'.a:lastline.' -style=Google' "
-let g:formatters_hpp = ['my_custom_hpp']
-
-let g:formatdef_my_custom_py = "'autopep8 --in-place --aggressive --max-line-length=80 --range '.a:firstline.' '.a:lastline"
-let g:formatters_py = ['my_custom_py']
-
-let g:formatdef_my_custom_java = "'astyle --style=java'"
-let g:formatters_java = ['my_custom_java']
+" let g:formatdef_my_custom_c = "'clang-format -lines='.a:firstline.':'.a:lastline.' -style=file' "
+" let g:formatters_c = ['my_custom_c']
+" let g:formatdef_my_custom_h = "'clang-format -lines='.a:firstline.':'.a:lastline.' -style=file' "
+" let g:formatters_h = ['my_custom_h']
+"
+" let g:formatdef_my_custom_cpp = "'clang-format -lines='.a:firstline.':'.a:lastline.' -style=file' "
+" let g:formatters_cpp = ['my_custom_cpp']
+" let g:formatdef_my_custom_hpp = "'clang-format -lines='.a:firstline.':'.a:lastline.' -style=file' "
+" let g:formatters_hpp = ['my_custom_hpp']
+"
+" let g:formatdef_my_custom_py = "'autopep8 --in-place --aggressive --max-line-length=80 --range '.a:firstline.' '.a:lastline"
+" let g:formatters_py = ['my_custom_py']
+"
+" let g:formatdef_my_custom_java = "'astyle --style=java'"
+" let g:formatters_java = ['my_custom_java']
 
 noremap <silent><F3> :Autoformat<cr>

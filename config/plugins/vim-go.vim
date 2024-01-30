@@ -1,9 +1,9 @@
 " let g:go_gopls_enabled = 0
 " let g:go_def_mode='guru'
 let g:go_fmt_command = "goimports" " 格式化将默认的 gofmt 替换
-let g:go_def_mode='guru'
 let g:go_autodetect_gopath = 1
 let g:go_list_type = "quickfix"
+let g:go_def_mapping_enabled = 0
 
 let g:go_version_warning = 1
 let g:go_highlight_types = 1

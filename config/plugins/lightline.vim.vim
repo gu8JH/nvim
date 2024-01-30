@@ -3,8 +3,19 @@ if &laststatus < 2
     set laststatus=2
 endif
 
+nmap <Leader>1 <Plug>lightline#bufferline#go(1)
+nmap <Leader>2 <Plug>lightline#bufferline#go(2)
+nmap <Leader>3 <Plug>lightline#bufferline#go(3)
+nmap <Leader>4 <Plug>lightline#bufferline#go(4)
+nmap <Leader>5 <Plug>lightline#bufferline#go(5)
+nmap <Leader>6 <Plug>lightline#bufferline#go(6)
+nmap <Leader>7 <Plug>lightline#bufferline#go(7)
+nmap <Leader>8 <Plug>lightline#bufferline#go(8)
+nmap <Leader>9 <Plug>lightline#bufferline#go(9)
+nmap <Leader>0 <Plug>lightline#bufferline#go(10)
+
 let g:lightline = {
-    \ 'colorscheme': 'srcery',
+    \ 'colorscheme': 'wombat',
     \ 'active': {
     \   'left': [ [ 'mode', 'paste' ],
     \             [ 'readonly', 'filename', 'modified'],
@@ -30,9 +41,9 @@ let g:lightline = {
     \ },
     \ 'component_expand': {
     \ },
-    \ 'separator': { 'left': "\ue0b8", 'right': "\ue0ba"},
-    \ 'subseparator': { 'left': "\ue0b9", 'right': "\ue0bb"}
 \ }
+    " \ 'separator': { 'left': "\ue0b8", 'right': "\ue0ba"},
+    " \ 'subseparator': { 'left': "\ue0b9", 'right': "\ue0bb"}
 
 function! s:lightline_is_lean() abort
     return &filetype =~? '\v^defx|mundo(diff)?$'

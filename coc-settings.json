@@ -1,45 +1,45 @@
 {
-  "coc.preferences.extensionUpdateCheck": "daily",
+    "semanticTokens.enable": true,
+    "suggest.acceptSuggestionOnCommitCharacter": true,
+    "suggest.timeout": 5000,
+    "suggest.noselect": true,
 
-  "suggest.acceptSuggestionOnCommitCharacter": true,
-  "suggest.timeout": 5000,
-  "suggest.noselect": true, // 选中第一个
-  "suggest.completionItemKindLabels": {
-    "class": "",
-    "color": "",
-    "constant": "",
-    "default": "",
-    "enum": "",
-    "enumMember": "",
-    "event": "鬒",
-    "field": "m",
-    "file": "",
-    "folder": "",
-    "function": "F",
-    "interface": "",
-    "keyword": "",
-    "method": "f",
-    "module": "",
-    "operator": "Ψ",
-    "property": "",
-    "reference": "r",
-    "snippet": "",
-    "struct": "פּ",
-    "text": "",
-    "typeParameter": "",
-    "unit": "",
-    "value": "",
-    "variable": ""
-  },
+    "clangd.disableDiagnostics": false,
+    "clangd.path": "/root/.config/nvim/clangd_17.0.3/bin/clangd",
+    "clangd.referencesHighlight": true,
 
-  "clangd.disableDiagnostics":true,
-  "diagnostic.signOffset": 9999,
-  "diagnostic.errorSign": "■",
-  "diagnostic.warningSign": "■",
-  "diagnostic.infoSign": "●",
-  "diagnostic.hintSign": "●",
-  "diagnostic.displayByAle": false,
-  "diagnostic.maxWindowHeight": 10,
+    "clangd.arguments": [
+        "--background-index",
+        "-j=12",
+        "--clang-tidy",
+        "--all-scopes-completion",
+        "--completion-style=detailed",
+        "--header-insertion=iwyu",
+        "--pch-storage=disk"
+    ],
 
-  "languageserver": {}
+    "jedi.enable": true,
+    "jedi.trace.server": "off",
+    "jedi.startupMessage": true,
+    "jedi.markupKindPreferred": "plaintext",
+    "jedi.jediSettings.autoImportModules": [],
+    "jedi.executable.args": [],
+    "jedi.completion.disableSnippets": false,
+    "jedi.diagnostics.enable": true,
+    "jedi.diagnostics.didOpen": true,
+    "jedi.diagnostics.didChange": true,
+    "jedi.diagnostics.didSave": true,
+    "jedi.workspace.extraPaths": [],
+
+    "languageserver": {
+        "go": {
+            "command": "gopls",
+            "rootPatterns": ["go.mod", ".git"],
+            "filetypes": ["go"]
+        }
+    },
+    "go.goplsOptions": {
+        "completeUnimported": true
+    }
 }
+
