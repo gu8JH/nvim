@@ -5,7 +5,7 @@
     "suggest.noselect": true,
 
     "clangd.disableDiagnostics": false,
-    "clangd.path": "/root/.config/nvim/clangd_17.0.3/bin/clangd",
+    "clangd.path": "/data02/gujiahao/.config/nvim/clangd_17.0.3/bin/clangd",
     "clangd.referencesHighlight": true,
 
     "clangd.arguments": [
@@ -15,7 +15,7 @@
         "--all-scopes-completion",
         "--completion-style=detailed",
         "--header-insertion=iwyu",
-        "--pch-storage=disk"
+        "--pch-storage=memory"
     ],
 
     "jedi.enable": true,

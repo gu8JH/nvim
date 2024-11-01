@@ -30,7 +30,7 @@ nnoremap <BackSpace> :nohl<cr>
 nnoremap <F1> <Nop>
 
 " jk表示esc
-" inoremap jk <esc>
+inoremap jk <esc>
 
 " 使用esc退出终端
 " if has('nvim')
