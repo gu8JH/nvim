@@ -58,10 +58,10 @@ Plug 'liuchengxu/vista.vim'
 let g:coc_global_extensions = [
       \ 'coc-git',
       \ 'coc-clangd',
-      \ 'coc-sh',
       \ 'coc-translator'
       \ ]
 
+      " \ 'coc-sh',
       " \ 'coc-go',
       " \ 'coc-yaml'
       " \ 'coc-jedi',
@@ -91,7 +91,8 @@ Plug 'mg979/vim-visual-multi'
 " Plug 'tmux-plugins/vim-tmux-focus-events'
 " Plug 'roxma/vim-tmux-clipboard'
 
-Plug 'git@code.byted.org:chenjiaqi.cposture/vim-ai.git'
+"Plug 'git@code.byted.org:chenjiaqi.cposture/vim-ai.git'
 Plug 'git@code.byted.org:chenjiaqi.cposture/codeverse.vim.git'
 
+"Plug 'tyru/vim-math'
 Plug 'dhruvasagar/vim-table-mode'
