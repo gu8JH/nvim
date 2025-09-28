@@ -91,7 +91,7 @@ Plug 'mg979/vim-visual-multi'
 " Plug 'tmux-plugins/vim-tmux-focus-events'
 " Plug 'roxma/vim-tmux-clipboard'
 
-"Plug 'git@code.byted.org:chenjiaqi.cposture/vim-ai.git'
+Plug 'git@code.byted.org:chenjiaqi.cposture/vim-ai.git'
 Plug 'git@code.byted.org:chenjiaqi.cposture/codeverse.vim.git'
 
 "Plug 'tyru/vim-math'
